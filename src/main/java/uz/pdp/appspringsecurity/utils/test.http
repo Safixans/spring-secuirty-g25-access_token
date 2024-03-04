@@ -1,0 +1,11 @@
+GET http://localhost:8080/home/secure
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwiaWF0IjoxNjk1OTE0MjI3LCJleHAiOjE2OTU5MTQyODcsInRlc3QiOiJxYWxheSIsImlzbWkiOiJLZXRtb25qb24ifQ.IsJ6mDuvhE5mddHoKhqWyUSsullm3yJw6_zD2Y_xqHY
+
+###
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+
+{
+  "username": "ketmon@mail.ru",
+  "password": "root123"
+}
